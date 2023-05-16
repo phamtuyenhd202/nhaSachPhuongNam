@@ -698,3 +698,7 @@ D:\data\tuyen\tuyen\DH_cong_nghiep_HN_2020-2024\2022-2023\ki2\cong_cu_phat_trien
 D:\data\tuyen\tuyen\DH_cong_nghiep_HN_2020-2024\2022-2023\ki2\cong_cu_phat_trien_phan_mem\doAn\Project8\Project8\obj\Debug\WebBanSach.csproj.CopyComplete
 D:\data\tuyen\tuyen\DH_cong_nghiep_HN_2020-2024\2022-2023\ki2\cong_cu_phat_trien_phan_mem\doAn\Project8\Project8\obj\Debug\Project8.dll
 D:\data\tuyen\tuyen\DH_cong_nghiep_HN_2020-2024\2022-2023\ki2\cong_cu_phat_trien_phan_mem\doAn\Project8\Project8\obj\Debug\Project8.pdb
+C:\Users\Laptop\OneDrive\Máy tính\newProject\nhaSachPhuongNam\Project8\obj\Debug\WebBanSach.csproj.AssemblyReference.cache
+C:\Users\Laptop\OneDrive\Máy tính\newProject\nhaSachPhuongNam\Project8\obj\Debug\WebBanSach.csproj.CoreCompileInputs.cache
+C:\Users\Laptop\OneDrive\Máy tính\newProject\nhaSachPhuongNam\Project8\obj\Debug\Project8.dll
+C:\Users\Laptop\OneDrive\Máy tính\newProject\nhaSachPhuongNam\Project8\obj\Debug\Project8.pdb
