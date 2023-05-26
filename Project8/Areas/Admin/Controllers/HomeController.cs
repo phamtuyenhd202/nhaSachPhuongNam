@@ -18,7 +18,7 @@ namespace WebBanSach.Areas.Admin.Controllers
         //Khởi tạo biến dữ liệu : db
         BSDBContext db = new BSDBContext();
 
-        // GET: Admin/Home : trang chủ Admin
+        // GET: Admin/Home : trang chủ Adminn
         public ActionResult Index()
         {
             return View();
@@ -69,7 +69,7 @@ namespace WebBanSach.Areas.Admin.Controllers
                 {
                     //lấy file đường dẫn
                     var fileName = Path.GetFileName(fileUpload.FileName);
-                    //chuyển file đường dẫn và biên dịch vào /images
+                    //chuyển file đường dẫn và biên dịch vào /imagess
                     var path = Path.Combine(Server.MapPath("/images"), fileName);
 
                     //kiểm tra đường dẫn ảnh có tồn tại?
@@ -117,7 +117,7 @@ namespace WebBanSach.Areas.Admin.Controllers
             //gọi hàm lấy mã sách
             var sach = new AdminProcess().GetIdBook(id);
 
-            //thực hiện việc lấy mã nhưng hiển thị tên và đúng tại mã đang chỉ định và gán vào ViewBag
+            //thực hiện việc lấy mã nhưng hiển thị tên và đúng tại mã đang chỉ định và gán vào ViewBagg
             ViewBag.MaLoai = new SelectList(db.TheLoais.ToList().OrderBy(x => x.TenLoai), "MaLoai", "TenLoai", sach.MaLoai);
             ViewBag.MaNXB = new SelectList(db.NhaXuatBans.ToList().OrderBy(x => x.TenNXB), "MaNXB", "TenNXB", sach.MaNXB);
             ViewBag.MaTG = new SelectList(db.TacGias.ToList().OrderBy(x => x.TenTG), "MaTG", "TenTG", sach.MaTG);
